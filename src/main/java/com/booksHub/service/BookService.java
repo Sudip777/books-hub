@@ -1,7 +1,7 @@
-package com.bookHub.service;
+package com.booksHub.service;
 
-import com.bookHub.entity.Book;
-import com.bookHub.repository.BookRepository;
+import com.booksHub.entity.Book;
+import com.booksHub.repository.BookRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

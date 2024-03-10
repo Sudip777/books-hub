@@ -1,10 +1,10 @@
-package com.bookHub.controller;
+package com.booksHub.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.bookHub.service.MyBookListService;
+import com.booksHub.service.MyBookListService;
 
 @Controller
 public class MyBookListController {

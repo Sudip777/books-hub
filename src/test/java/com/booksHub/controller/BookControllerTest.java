@@ -1,9 +1,9 @@
-package com.bookHub.controller;
+package com.booksHub.controller;
 
-import com.bookHub.entity.Book;
-import com.bookHub.entity.MyBookList;
-import com.bookHub.service.BookService;
-import com.bookHub.service.MyBookListService;
+import com.booksHub.entity.Book;
+import com.booksHub.entity.MyBookList;
+import com.booksHub.service.BookService;
+import com.booksHub.service.MyBookListService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -29,7 +29,7 @@ class BookControllerTest {
     private BookService bookService;
 
     @InjectMocks
-    private BookController bookController;
+    private com.booksHub.controller.BookController bookController;
 
     @BeforeEach
     void setUp() {
@@ -72,7 +72,7 @@ class BookControllerTest {
     void testAddBook() throws Exception {
         // Mocking the BookService
         BookService bookService = Mockito.mock(BookService.class);
-        BookController bookController = new BookController(bookService, null); // Assuming no dependency on MyBookListService
+        com.booksHub.controller.BookController bookController = new com.booksHub.controller.BookController(bookService, null); // Assuming no dependency on MyBookListService
 
         // Setting up MockMvc
         MockMvc mockMvc = MockMvcBuilders.standaloneSetup(bookController).build();
@@ -102,7 +102,7 @@ class BookControllerTest {
         // Mocking the dependencies
         BookService bookService = Mockito.mock(BookService.class);
         MyBookListService myBookListService = Mockito.mock(MyBookListService.class);
-        BookController bookController = new BookController(bookService, myBookListService);
+        com.booksHub.controller.BookController bookController = new com.booksHub.controller.BookController(bookService, myBookListService);
 
         // Setting up MockMvc
         MockMvc mockMvc = MockMvcBuilders.standaloneSetup(bookController).build();
@@ -162,7 +162,4 @@ class BookControllerTest {
 
 
 
-
-
-    // Add more tests for other controller methods as needed
 }

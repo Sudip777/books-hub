@@ -1,6 +1,6 @@
-package com.bookHub.controller;
+package com.booksHub.controller;
 
-import com.bookHub.service.MyBookListService;
+import com.booksHub.service.MyBookListService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -22,7 +22,7 @@ public class MyBookListControllerTest {
     private MyBookListService myBookListService;
 
     @InjectMocks
-    private MyBookListController myBookListController;
+    private com.booksHub.controller.MyBookListController myBookListController;
 
     @BeforeEach
     void setUp() {

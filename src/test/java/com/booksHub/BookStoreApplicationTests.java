@@ -1,4 +1,4 @@
-package com.bookHub;
+package com.booksHub;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

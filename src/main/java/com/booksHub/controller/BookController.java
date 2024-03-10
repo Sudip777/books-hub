@@ -1,9 +1,9 @@
-package com.bookHub.controller;
+package com.booksHub.controller;
 
-import com.bookHub.entity.Book;
-import com.bookHub.entity.MyBookList;
-import com.bookHub.service.BookService;
-import com.bookHub.service.MyBookListService;
+import com.booksHub.entity.Book;
+import com.booksHub.entity.MyBookList;
+import com.booksHub.service.BookService;
+import com.booksHub.service.MyBookListService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

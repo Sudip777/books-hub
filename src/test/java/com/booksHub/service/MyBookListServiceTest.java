@@ -1,7 +1,7 @@
-package com.bookHub.service;
+package com.booksHub.service;
 
-import com.bookHub.entity.MyBookList;
-import com.bookHub.repository.MyBookRepository;
+import com.booksHub.entity.MyBookList;
+import com.booksHub.repository.MyBookRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
