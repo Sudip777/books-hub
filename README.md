@@ -12,7 +12,6 @@ Join BooksHub today and embark on your personalized book journey!
 - MySQL
 - Bootstrap 5
 - Junit / Mockito
-
 ## Features
 - Register new books to your collection.
 - View available books.
@@ -67,4 +66,10 @@ BookHub &copy; 2024
 
 Enjoy managing your book collection with BooksHub!
 
-
+## Demo
+![sign-in.png](src/main/resources/static/images/sign-in.png)
+![home-page.png](src/main/resources/static/images/home-page.png)
+![register-page.png](src/main/resources/static/images/register-page.png)
+![available-books.png](src/main/resources/static/images/available-books.png)
+![my-books.png](src/main/resources/static/images/my-books.png)
+![error-page.png](src/main/resources/static/images/error-page.png)
